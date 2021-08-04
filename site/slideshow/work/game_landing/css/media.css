@@ -1,0 +1,414 @@
+@media screen and (max-width: 777px) {
+    .about__blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__block {
+        width: 80%;
+    }
+    .about__h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+    .about__h3 {
+        width: 340px;
+        margin: 0;
+        font-size: 66px;
+        line-height: 66px;
+    }
+    .about__p {
+        margin-left: 0 !important;
+    }
+    hr {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .about__h3 {
+        width: 100%;
+        margin: 0;
+        font-size: 42px;
+        line-height: 45px;
+    }
+    .about__p {
+        font-size: 15px !important;
+        line-height: 19px !important;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .accordion {
+        font-size: 24px !important;
+    }
+    .features__h3 {
+        font-size: 64px !important;
+    }
+    .features__h4 {
+        font-size: 18px !important;
+    }
+    .panel p {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .accordion {
+        font-size: 18px !important;
+    }
+    .features__h3 {
+        font-size: 48px !important;
+    }
+    .features__h4 {
+        font-size: 16px !important;
+    }
+    .panel p {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .features__block {
+        margin: 0 auto !important;
+        margin-top: 150px !important;
+    }
+    .accordion {
+        font-size: 18px !important;
+        padding: 15px 0px !important;
+    }
+    .features__h3 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    .features__h4 {
+        font-size: 14px !important;
+    }
+    .panel p {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .system__h3 {
+        font-size: 63px !important;
+    }
+    .system__h4 {
+        font-size: 22px !important;
+    }
+    .system__info:nth-child(5) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .system__info {
+        width: 260px !important;
+    }
+    .system__block {
+        width: 520px !important;
+    }
+    .system__info:nth-child(5) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .system__h3 {
+        font-size: 53px !important;
+    }
+    .system__info {
+        width: 230px !important;
+    }
+    .system__block {
+        width: 460px !important;
+        margin-top: 70px;
+    }
+    .system__info:nth-child(5) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .system__h3 {
+        font-size: 43px !important;
+    }
+    .system__h4 {
+        font-size: 20px !important;
+    }
+    .system__info {
+        width: 200px !important;
+    }
+    .system__block {
+        width: 400px !important;
+        margin-top: 0px !important;
+    }
+    .system__info:nth-child(5) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .system__h3 {
+        font-size: 33px !important;
+    }
+    .system__h4 {
+        font-size: 16px !important;
+    }
+    .system__info {
+        width: 160px !important;
+    }
+    .system__block {
+        width: 320px !important;
+        margin-top: 0px !important;
+    }
+    .system__info p {
+        font-size: 16px !important;
+    }
+    .system__info:nth-child(5) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    .system__h3 {
+        font-size: 28px !important;
+    }
+    .system__h4 {
+        font-size: 14px !important;
+    }
+    .system__info {
+        width: 140px !important;
+    }
+    .system__block {
+        width: 280px !important;
+        margin-top: 0px !important;
+    }
+    .system__info p {
+        font-size: 15px !important;
+    }
+    .system__info:nth-child(5) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .quotes__blocks {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .card__1 {
+        margin-left: 15px !important;
+        width: 400px !important;
+        margin-right: 15px;
+    }
+    .card__2 {
+        margin-left: 15px !important;
+        width: 400px !important;
+        margin-right: 15px;
+    }
+    .card__3 {
+        margin-left: 15px !important;
+        width: 400px !important;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .quotes__h3 {
+        font-size: 64px;
+        margin-left: 15px;
+        width: 100%;
+    }
+    .quotes__h4 {
+        font-size: 20px;
+        margin-left: 15px;
+        width: 100% !important;
+    }
+    .quotes-p {
+        font-size: 16px;
+        margin-left: 15px;
+        width: 100% !important;
+    }
+    .quotes__btn {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .quotes__h3 {
+        font-size: 48px;
+        margin-left: 15px;
+        width: 100%;
+    }
+    .quotes__h4 {
+        font-size: 18px;
+        margin-left: 15px;
+        width: 100% !important;
+    }
+    .quotes-p {
+        font-size: 14px;
+        margin-left: 15px;
+        width: 100% !important;
+    }
+    .quotes__btn {
+        margin-left: 15px;
+        display: block;
+        margin: 0 auto;
+    }
+    .card__1 {
+        margin-left: 15px !important;
+        width: 350px !important;
+        margin-right: 15px;
+    }
+    .card__2 {
+        margin-left: 15px !important;
+        width: 350px !important;
+        margin-right: 15px;
+    }
+    .card__3 {
+        margin-left: 15px !important;
+        width: 350px !important;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .quotes__img {
+        width: 40px;
+        height: 40px;
+    }
+    .quotes__strong {
+        font-size: 14px;
+    }
+    .quotes__span {
+        font-size: 14px;
+    }
+    .quotes__b {
+        font-size: 12px;
+    }
+    .quotes__p {
+        font-size: 12px;
+    }
+    .card__1 {
+        margin-left: 15px !important;
+        width: 300px !important;
+        margin-right: 15px;
+    }
+    .card__2 {
+        margin-left: 15px !important;
+        width: 300px !important;
+        margin-right: 15px;
+    }
+    .card__3 {
+        margin-left: 15px !important;
+        width: 300px !important;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .quotes__h3 {
+        font-size: 36px;
+        margin-left: 15px;
+        width: 100%;
+    }
+    .quotes__h4 {
+        font-size: 16px;
+        margin-left: 15px;
+        width: 100% !important;
+    }
+    .quotes-p {
+        font-size: 12px;
+        margin-left: 15px;
+        width: 100% !important;
+    }
+    .quotes__btn {
+        margin-left: 15px;
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .card__1 {
+        margin-left: 15px !important;
+        width: 280px !important;
+        margin-right: 15px;
+    }
+    .card__2 {
+        margin-left: 15px !important;
+        width: 280px !important;
+        margin-right: 15px;
+    }
+    .card__3 {
+        margin-left: 15px !important;
+        width: 280px !important;
+        margin-right: 15px;
+    }
+}
+
+
+/* @media screen and (max-width: 975px) {
+    .subscribe__h4 {
+        font-size: 22px;
+    }
+    .subscribe__h3 {
+        font-size: 60px;
+        white-space: nowrap;
+    }
+    .subscribe__p {
+        font-size: 16px;
+    }
+    .subscribe__btn {}
+    .subscribe__input {}
+    .subscribe__input-text {}
+} */
+
+@media screen and (max-width: 967px) {
+    .subscribe__h4 {
+        font-size: 22px;
+    }
+    .subscribe__h3 {
+        font-size: 52px;
+        white-space: nowrap;
+    }
+    .subscribe__p {
+        font-size: 16px;
+    }
+    .subscribe__btn {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .subscribe__input {
+        width: 100%;
+    }
+    .subscribe__input-text {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .subscribe__h4 {
+        font-size: 22px;
+    }
+    .subscribe__h3 {
+        font-size: 52px;
+        white-space: nowrap;
+    }
+    .subscribe__p {
+        font-size: 16px;
+    }
+    .subscribe__btn {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .subscribe__input {
+        width: 100%;
+    }
+    .subscribe__input-text {
+        flex-direction: column;
+    }
+}

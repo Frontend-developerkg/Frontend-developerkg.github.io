@@ -1,0 +1,91 @@
+.variation__text {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    margin-top: 60px;
+
+    h2 {
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        color: #99EFD0;
+    }
+
+    .variation__rain-1 {
+        background: url(../img/rain.png);
+        position: absolute;
+        left: -190px;
+        width: 384px;
+        height: 560px;
+        top: -200px;
+        opacity: 0.3;
+        animation: rain-1 18s linear infinite;
+    }
+
+    @keyframes rain-1 {
+        from {
+            background-position: 0 -1000px;
+        }
+
+       
+        to {
+            background-position: 20% 5000px;
+        }
+    }
+
+
+    .variation__rain-2 {
+        background: url(../img/rain-2.png);
+        position: absolute;
+        width: 384px;
+        height: 560px;
+        right: -10px;
+        top: -240px;
+        opacity: 0.3;
+        animation: rain-2 18s linear infinite;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 22px;
+        color: #8476AA;
+    }
+    @keyframes rain-2 {
+        from {
+            background-position: 0 -1000px;
+        }
+
+       
+        to {
+            background-position: 20% 5000px;
+        }
+    }
+}
+
+.variation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__block {
+        max-width: 300px;
+        margin: 0 auto;
+
+        img {
+            margin-right: 15px;
+        }
+
+        span {
+            font-size: 18px;
+            line-height: 22px;
+            color: #99EFD0
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 22px;
+            margin-left: 40px;
+            color: #8476AA;
+        }
+    }
+}

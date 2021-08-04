@@ -1,0 +1,25 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+body {
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 830vh;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 13px 31px;
+}
+
+@import "blocks";
