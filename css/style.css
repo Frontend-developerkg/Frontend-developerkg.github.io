@@ -212,6 +212,69 @@ p {
   -webkit-overflow-scrolling: touch;
 }
 
+.img-click {
+  font-size: 30px;
+  position: absolute;
+  left: -40px;
+  color: #16024f;
+  top: 40px;
+  cursor: pointer;
+  animation: fa-spin 2s infinite linear;
+}
+
+
+.position-click {
+  width: 240px;
+  padding: 10px 0;
+  background: rgba(255,255,255,0.6);
+  display: none;
+  position: fixed;
+  top: 85px;
+  left: 55px;
+  z-index: 121;
+  border-bottom: 12px solid rgba(102,102,102,0);
+  border-right: 12px solid rgba(102,102,102,0);
+  border-top: 12px solid #666;
+  border-left: 12px solid #666;
+}
+
+.click-1 {
+  border: none;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  background: #008000;
+  margin: 10px;
+  border-radius: 15px;
+}
+.click-2 {
+  border: none;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  background: #FF0000;
+  margin: 10px;
+  border-radius: 15px;
+}
+.click-3 {
+  border: none;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  background: #000080;
+  margin: 10px;
+  border-radius: 15px;
+}
+.click-4 {
+  border: none;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  background: #00FFFF;
+  margin: 10px;
+  border-radius: 15px;
+}
+
 .respimg {
   width: 100%;
   height: auto;
@@ -3073,7 +3136,7 @@ textarea {
 
 .card {
   width: 300px;
-  min-height: 500px;
+  height: 500px;
   transform-style: preserve-3d;
   margin-left: 10px;
   margin-right: 10px;
@@ -3218,4 +3281,11 @@ textarea {
 .card-p {
   padding: 5px;
   margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:850px) {
+  .hidden-click {
+    display: none;
+  }
 }
