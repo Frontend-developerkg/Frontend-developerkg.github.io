@@ -8,7 +8,7 @@
 ::-webkit-scrollbar-thumb , -moz-scrollbar {
 	background:#16024f;
 }
-.services-holder li  i , .contact-info li i  , .policy-box  a  , .policy-box  i , .error_message , .twitts li a , .num , .resume-head h4 , #testimonials-slider a , .twitter-holder h4 a , .subscribe-holder h4 , #contact-form input[type=text]:focus, #contact-form textarea:focus, input[type=email]:focus , #contact-social  ul li a:hover , .side-site div i  ,  #success_page p , .post-meta li h6, .post-meta li a , .search-submit , .share-options ul li a:hover{
+.services-holder li  i , .contact-info li i , .policy-box  a  , .policy-box  i , .error_message , .twitts li a , .num , .resume-head h4 , #testimonials-slider a , .twitter-holder h4 a , .subscribe-holder h4 , #contact-form input[type=text]:focus, #contact-form textarea:focus, input[type=email]:focus , #contact-social  ul li a:hover , .side-site div i  ,  #success_page p , .post-meta li h6, .post-meta li a , .search-submit , .share-options ul li a:hover{
 	color:#16024f;
 }  
 .page-title h2 span {
